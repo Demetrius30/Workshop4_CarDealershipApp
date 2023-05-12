@@ -1,0 +1,11 @@
+D & B Used Cars|111 Old Benbrook Rd|817-555-5555
+10112|1993|Ford|Explorer|SUV|Red|525123|995.00
+37846|2001|Ford|Ranger|truck|Yellow|172544|1,995.00
+97254|2012|Honda|Civic|Sedan|Gray|103221|6,995.00
+34556|2013|BMW|500|Sedan|Gray|345678|20,203.00
+87543|2014|Dodge|Charger|Sedan|Gray|89674|12,000.00
+25789|2015|Dodge|Dart|Sedan|Gray|3457688|12,012.00
+13675|2016|Mercedes|CLA|Sedan|Gray|134467|25,000.00
+76543|2017|Nissan|Altima|Sedan|Gray|5678996|18,000.00
+98764|2018|Dodge|Challenger|Sedan|Gray|3567843|22,003.00
+35678|2019|Audi|A4|Sedan|Gray|253575|28,987.00
