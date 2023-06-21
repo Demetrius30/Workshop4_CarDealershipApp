@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b1515d6-4ac5-405e-9d86-51f2a0be157a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dm/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dm/LeaseContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dm/SalesContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/Dealership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/DealershipFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/DealershipFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/inventory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/inventory.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

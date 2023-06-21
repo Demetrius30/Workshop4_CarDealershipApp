@@ -138,27 +138,49 @@ public class UserInterface {
         scanner.nextLine();
     }
 
-    private static void getVehiclesByModel() {
+    private void getVehiclesByModel() {
+        System.out.println("Please enter model that you would like: ");
+        String model = scanner.nextLine();
+
+        ArrayList<Vehicle> vehiclesByModel = this.dealership.getVehicleByModel(model);
+        for(Vehicle vehicleModel: vehiclesByModel){
+            System.out.println(vehicleModel);
+        }
+        scanner.nextLine();
     }
 
 
-    private static void getVehicleByYear() {
+    private void getVehicleByYear() {
+        System.out.println("Please enter year of vehicle you would like: ");
+        int year = scanner.nextInt();
+
+        ArrayList<Vehicle> vehiclesByYear = this.dealership.getVehicleByYear(year);
+        for(Vehicle vehicleYear : vehiclesByYear){
+            System.out.println(vehicleYear);
+        }
+        scanner.nextLine();
     }
 
 
-    private static void getVehicleByColor() {
+    private void getVehicleByColor() {
+        System.out.println("Please enter color of vehicle you would like: ");
+
     }
 
 
-    private static void getVehicleByMileage() {
+    private void getVehicleByMileage() {
+        System.out.println("Please enter mileage of vehicle you would like: ");
+
     }
 
 
-    private static void getVehicleByType() {
+    private void getVehicleByType() {
+        System.out.println("Please enter type of vehicle you would like: ");
+
     }
 
 
-    private static void getVehicleAllVehicles() {
+    private void getVehicleAllVehicles() {
 
         try {
 //            Scanner scanner1 = new Scanner(System.in);

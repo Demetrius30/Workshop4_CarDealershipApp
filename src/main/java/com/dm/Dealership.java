@@ -64,11 +64,25 @@ public class Dealership {
     }
 
     public ArrayList<Vehicle> getVehicleByModel(String model) {
-        return new ArrayList<>();
+        ArrayList<Vehicle> vehiclesToDisplayModel = new ArrayList<>();
+
+        for(Vehicle vehicle : this.inventory){
+            if(vehicle.getModel().equalsIgnoreCase(model)){
+                vehiclesToDisplayModel.add(vehicle);
+            }
+        }
+        return vehiclesToDisplayModel;
     }
 
-    public ArrayList<Vehicle> getVehicleByYear(String year) {
-        return new ArrayList<>();
+    public ArrayList<Vehicle> getVehicleByYear(int year) {
+        ArrayList<Vehicle> vehiclesToDisplayYear = new ArrayList<>();
+
+        for(Vehicle vehicle : this.inventory){
+            if(vehicle.getYear() == year){
+                vehiclesToDisplayYear.add(vehicle);
+            }
+        }
+        return vehiclesToDisplayYear;
     }
 
     public ArrayList<Vehicle> getVehicleByColor(String color) {
